@@ -19,12 +19,12 @@
 //
 
 #import <CoreFoundation/CoreFoundation.h>
-#import "RKObjectMapping.h"
-#import "RKRelationshipMapping.h"
+#import "ObjectMapping/RKObjectMapping.h"
+#import "ObjectMapping/RKRelationshipMapping.h"
 #import "RKPropertyInspector.h"
-#import "RKLog.h"
-#import "RKAttributeMapping.h"
-#import "RKRelationshipMapping.h"
+#import "Support/RKLog.h"
+#import "ObjectMapping/RKAttributeMapping.h"
+#import "ObjectMapping/RKRelationshipMapping.h"
 #import "RKValueTransformers.h"
 #import "ISO8601DateFormatterValueTransformer.h"
 

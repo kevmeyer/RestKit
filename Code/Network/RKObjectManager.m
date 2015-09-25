@@ -19,23 +19,23 @@
 //
 
 #import <objc/runtime.h>
-#import "RKObjectManager.h"
-#import "RKObjectParameterization.h"
-#import "RKRequestDescriptor.h"
-#import "RKResponseDescriptor.h"
-#import "RKDictionaryUtilities.h"
-#import "RKMIMETypes.h"
-#import "RKLog.h"
-#import "RKMIMETypeSerialization.h"
-#import "RKPathMatcher.h"
+#import "Network/RKObjectManager.h"
+#import "Network/RKObjectParameterization.h"
+#import "Network/RKRequestDescriptor.h"
+#import "Network/RKResponseDescriptor.h"
+#import "Support/RKDictionaryUtilities.h"
+#import "Support/RKMIMETypes.h"
+#import "Support/RKLog.h"
+#import "Support/RKMIMETypeSerialization.h"
+#import "Network/RKPathMatcher.h"
 #import "RKMappingErrors.h"
 #import "RKPaginator.h"
-#import "RKDynamicMapping.h"
-#import "RKRelationshipMapping.h"
-#import "RKObjectRequestOperation.h"
-#import "RKRouter.h"
-#import "RKRoute.h"
-#import "RKRouteSet.h"
+#import "ObjectMapping/RKDynamicMapping.h"
+#import "ObjectMapping/RKRelationshipMapping.h"
+#import "Network/RKObjectRequestOperation.h"
+#import "Network/RKRouter.h"
+#import "Network/RKRoute.h"
+#import "Network/RKRouteSet.h"
 
 #ifdef _COREDATADEFINES_H
 #   if __has_include("RKCoreData.h")

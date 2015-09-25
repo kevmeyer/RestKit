@@ -18,9 +18,9 @@
 //  limitations under the License.
 //
 
-#import "RKInMemoryManagedObjectCache.h"
+#import "CoreData/RKInMemoryManagedObjectCache.h"
 #import "RKEntityCache.h"
-#import "RKLog.h"
+#import "Support/RKLog.h"
 #import "RKEntityByAttributeCache.h"
 
 // Set Logging Component

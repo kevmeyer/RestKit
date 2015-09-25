@@ -18,9 +18,9 @@
 //  limitations under the License.
 //
 
-#import "RKPathMatcher.h"
-#import "RKResponseDescriptor.h"
-#import "RKHTTPUtilities.h"
+#import "Network/RKPathMatcher.h"
+#import "Network/RKResponseDescriptor.h"
+#import "ObjectMapping/RKHTTPUtilities.h"
 #import "RKMapping.h"
 
 // Cloned from AFStringFromIndexSet -- method should be non-static for reuse

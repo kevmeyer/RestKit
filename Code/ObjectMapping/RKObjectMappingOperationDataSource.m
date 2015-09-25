@@ -19,7 +19,7 @@
 //
 
 #import "RKObjectMappingOperationDataSource.h"
-#import "RKObjectMapping.h"
+#import "ObjectMapping/RKObjectMapping.h"
 #import "RKMappingOperation.h"
 
 @implementation RKObjectMappingOperationDataSource

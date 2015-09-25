@@ -18,12 +18,12 @@
 //  limitations under the License.
 //
 
-#import "RKEntityMapping.h"
-#import "RKManagedObjectStore.h"
+#import "CoreData/RKEntityMapping.h"
+#import "CoreData/RKManagedObjectStore.h"
 #import "RKObjectMappingMatcher.h"
-#import "RKPropertyInspector+CoreData.h"
-#import "RKLog.h"
-#import "RKRelationshipMapping.h"
+#import "CoreData/RKPropertyInspector+CoreData.h"
+#import "Support/RKLog.h"
+#import "ObjectMapping/RKRelationshipMapping.h"
 #import "RKObjectUtilities.h"
 
 // Set Logging Component

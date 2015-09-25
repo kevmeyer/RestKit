@@ -23,10 +23,10 @@
 #endif
 
 #import "RKEntityByAttributeCache.h"
-#import "RKLog.h"
+#import "Support/RKLog.h"
 #import "RKPropertyInspector.h"
-#import "RKPropertyInspector+CoreData.h"
-#import "NSManagedObject+RKAdditions.h"
+#import "CoreData/RKPropertyInspector+CoreData.h"
+#import "CoreData/NSManagedObject+RKAdditions.h"
 #import "RKObjectUtilities.h"
 
 // Set Logging Component

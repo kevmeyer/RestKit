@@ -18,14 +18,14 @@
 //  limitations under the License.
 //
 
-#import "RKMapperOperation.h"
+#import "ObjectMapping/RKMapperOperation.h"
 #import "RKMapperOperation_Private.h"
-#import "RKObjectMapping.h"
+#import "ObjectMapping/RKObjectMapping.h"
 #import "RKObjectMappingOperationDataSource.h"
 #import "RKMappingErrors.h"
-#import "RKDynamicMapping.h"
-#import "RKLog.h"
-#import "RKDictionaryUtilities.h"
+#import "ObjectMapping/RKDynamicMapping.h"
+#import "Support/RKLog.h"
+#import "Support/RKDictionaryUtilities.h"
 
 NSString * const RKMappingErrorKeyPathErrorKey = @"keyPath";
 

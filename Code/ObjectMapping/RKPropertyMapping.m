@@ -19,7 +19,7 @@
 //
 
 #import "RKPropertyMapping.h"
-#import "RKObjectMapping.h"
+#import "ObjectMapping/RKObjectMapping.h"
 
 /**
  For consistency with URI Templates (and most web templating languages in general) we are transitioning

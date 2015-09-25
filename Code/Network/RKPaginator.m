@@ -21,14 +21,14 @@
 #import "RKPaginator.h"
 #import "RKMappingOperation.h"
 #import "SOCKit.h"
-#import "RKLog.h"
-#import "RKPathMatcher.h"
-#import "RKHTTPUtilities.h"
+#import "Support/RKLog.h"
+#import "Network/RKPathMatcher.h"
+#import "ObjectMapping/RKHTTPUtilities.h"
 
 #ifdef _COREDATADEFINES_H
 #if __has_include("RKCoreData.h")
 #define RKCoreDataIncluded
-#import "RKManagedObjectRequestOperation.h"
+#import "Network/RKManagedObjectRequestOperation.h"
 #endif
 #endif
 

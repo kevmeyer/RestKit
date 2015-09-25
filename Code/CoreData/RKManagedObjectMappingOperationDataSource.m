@@ -19,20 +19,20 @@
 //
 
 #import <objc/runtime.h>
-#import "RKManagedObjectMappingOperationDataSource.h"
-#import "RKObjectMapping.h"
-#import "RKEntityMapping.h"
-#import "RKLog.h"
-#import "RKManagedObjectStore.h"
+#import "CoreData/RKManagedObjectMappingOperationDataSource.h"
+#import "ObjectMapping/RKObjectMapping.h"
+#import "CoreData/RKEntityMapping.h"
+#import "Support/RKLog.h"
+#import "CoreData/RKManagedObjectStore.h"
 #import "RKMappingOperation.h"
 #import "RKObjectMappingMatcher.h"
-#import "RKManagedObjectCaching.h"
+#import "CoreData/RKManagedObjectCaching.h"
 #import "RKRelationshipConnectionOperation.h"
 #import "RKMappingErrors.h"
 #import "RKValueTransformers.h"
-#import "RKRelationshipMapping.h"
+#import "ObjectMapping/RKRelationshipMapping.h"
 #import "RKObjectUtilities.h"
-#import "NSManagedObject+RKAdditions.h"
+#import "CoreData/NSManagedObject+RKAdditions.h"
 
 extern NSString * const RKObjectMappingNestingAttributeKeyName;
 

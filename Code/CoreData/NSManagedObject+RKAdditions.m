@@ -6,10 +6,10 @@
 //  Copyright (c) 2009-2012 RestKit. All rights reserved.
 //
 
-#import "NSManagedObject+RKAdditions.h"
-#import "NSManagedObjectContext+RKAdditions.h"
-#import "RKLog.h"
-#import "RKManagedObjectStore.h"
+#import "CoreData/NSManagedObject+RKAdditions.h"
+#import "CoreData/NSManagedObjectContext+RKAdditions.h"
+#import "Support/RKLog.h"
+#import "CoreData/RKManagedObjectStore.h"
 
 @implementation NSManagedObject (RKAdditions)
 

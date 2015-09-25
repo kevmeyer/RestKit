@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 RestKit. All rights reserved.
 //
 
-#import "RKStringTokenizer.h"
+#import "Support/RKStringTokenizer.h"
 
 @implementation RKStringTokenizer
 

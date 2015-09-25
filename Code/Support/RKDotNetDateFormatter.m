@@ -18,8 +18,8 @@
 //  limitations under the License.
 //
 
-#import "RKDotNetDateFormatter.h"
-#import "RKLog.h"
+#import "Support/RKDotNetDateFormatter.h"
+#import "Support/RKLog.h"
 
 static BOOL RKDotNetDateFormatterIsValidRange(NSRange rangeOfMatch)
 {

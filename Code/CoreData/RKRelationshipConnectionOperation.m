@@ -21,11 +21,11 @@
 #import <CoreData/CoreData.h>
 #import "RKRelationshipConnectionOperation.h"
 #import "RKConnectionDescription.h"
-#import "RKEntityMapping.h"
-#import "RKLog.h"
-#import "RKManagedObjectCaching.h"
+#import "CoreData/RKEntityMapping.h"
+#import "Support/RKLog.h"
+#import "CoreData/RKManagedObjectCaching.h"
 #import "RKObjectMappingMatcher.h"
-#import "RKErrors.h"
+#import "Support/RKErrors.h"
 #import "RKObjectUtilities.h"
 
 // Set Logging Component

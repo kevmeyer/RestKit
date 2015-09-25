@@ -22,16 +22,16 @@
 #import "RKMappingOperation.h"
 #import "RKMappingErrors.h"
 #import "RKPropertyInspector.h"
-#import "RKAttributeMapping.h"
-#import "RKRelationshipMapping.h"
-#import "RKErrors.h"
-#import "RKLog.h"
+#import "ObjectMapping/RKAttributeMapping.h"
+#import "ObjectMapping/RKRelationshipMapping.h"
+#import "Support/RKErrors.h"
+#import "Support/RKLog.h"
 #import "RKMappingOperationDataSource.h"
 #import "RKObjectMappingOperationDataSource.h"
-#import "RKDynamicMapping.h"
+#import "ObjectMapping/RKDynamicMapping.h"
 #import "RKObjectUtilities.h"
 #import "RKValueTransformers.h"
-#import "RKDictionaryUtilities.h"
+#import "Support/RKDictionaryUtilities.h"
 
 // Set Logging Component
 #undef RKLogComponent

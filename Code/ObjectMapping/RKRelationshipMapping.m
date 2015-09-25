@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "RKRelationshipMapping.h"
+#import "ObjectMapping/RKRelationshipMapping.h"
 #import "RKMapping.h"
 
 @interface RKPropertyMapping ()

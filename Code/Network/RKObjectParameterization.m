@@ -18,13 +18,13 @@
 //  limitations under the License.
 //
 
-#import "RKMIMETypes.h"
+#import "Support/RKMIMETypes.h"
 #import "RKSerialization.h"
-#import "RKObjectParameterization.h"
-#import "RKMIMETypeSerialization.h"
-#import "RKLog.h"
+#import "Network/RKObjectParameterization.h"
+#import "Support/RKMIMETypeSerialization.h"
+#import "Support/RKLog.h"
 #import "RKObjectMappingOperationDataSource.h"
-#import "RKObjectMapping.h"
+#import "ObjectMapping/RKObjectMapping.h"
 #import "RKMappingOperation.h"
 #import "RKMappingErrors.h"
 #import "RKPropertyInspector.h"

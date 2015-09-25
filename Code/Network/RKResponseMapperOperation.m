@@ -19,19 +19,19 @@
 //
 
 #import "RKObjectMappingOperationDataSource.h"
-#import "RKLog.h"
-#import "RKResponseDescriptor.h"
-#import "RKPathMatcher.h"
-#import "RKHTTPUtilities.h"
+#import "Support/RKLog.h"
+#import "Network/RKResponseDescriptor.h"
+#import "Network/RKPathMatcher.h"
+#import "ObjectMapping/RKHTTPUtilities.h"
 #import "RKResponseMapperOperation.h"
 #import "RKMappingErrors.h"
-#import "RKMIMETypeSerialization.h"
-#import "RKDictionaryUtilities.h"
+#import "Support/RKMIMETypeSerialization.h"
+#import "Support/RKDictionaryUtilities.h"
 
 #ifdef _COREDATADEFINES_H
 #if __has_include("RKCoreData.h")
 #define RKCoreDataIncluded
-#import "RKManagedObjectMappingOperationDataSource.h"
+#import "CoreData/RKManagedObjectMappingOperationDataSource.h"
 #endif
 #endif
 

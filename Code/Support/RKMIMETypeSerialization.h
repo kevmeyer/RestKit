@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "RKMIMETypes.h"
+#import "Support/RKMIMETypes.h"
 #import "RKSerialization.h"
 
 /**

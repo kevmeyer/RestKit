@@ -19,8 +19,8 @@
 //
 
 #import <objc/runtime.h>
-#import "NSManagedObjectContext+RKAdditions.h"
-#import "RKLog.h"
+#import "CoreData/NSManagedObjectContext+RKAdditions.h"
+#import "Support/RKLog.h"
 
 @implementation NSManagedObjectContext (RKAdditions)
 

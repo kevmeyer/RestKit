@@ -19,8 +19,8 @@
 //
 
 #import "RKMappingOperationDataSource.h"
-#import "RKMapperOperation.h"
-#import "RKMappingResult.h"
+#import "ObjectMapping/RKMapperOperation.h"
+#import "ObjectMapping/RKMappingResult.h"
 
 #ifdef _COREDATADEFINES_H
 @protocol RKManagedObjectCaching;

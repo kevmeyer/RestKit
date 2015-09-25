@@ -19,14 +19,14 @@
 //
 
 #import <objc/runtime.h>
-#import "RKManagedObjectStore.h"
-#import "RKLog.h"
+#import "CoreData/RKManagedObjectStore.h"
+#import "Support/RKLog.h"
 #import "RKPropertyInspector.h"
-#import "RKPropertyInspector+CoreData.h"
-#import "RKPathUtilities.h"
-#import "RKInMemoryManagedObjectCache.h"
-#import "RKFetchRequestManagedObjectCache.h"
-#import "NSManagedObjectContext+RKAdditions.h"
+#import "CoreData/RKPropertyInspector+CoreData.h"
+#import "Support/RKPathUtilities.h"
+#import "CoreData/RKInMemoryManagedObjectCache.h"
+#import "CoreData/RKFetchRequestManagedObjectCache.h"
+#import "CoreData/NSManagedObjectContext+RKAdditions.h"
 
 // Set Logging Component
 #undef RKLogComponent

@@ -20,10 +20,10 @@
 
 #import <CoreData/CoreData.h>
 #import <objc/message.h>
-#import "RKPropertyInspector+CoreData.h"
-#import "RKLog.h"
+#import "CoreData/RKPropertyInspector+CoreData.h"
+#import "Support/RKLog.h"
 #import "RKObjectUtilities.h"
-#import "RKMacros.h"
+#import "Support/RKMacros.h"
 
 // Set Logging Component
 #undef RKLogComponent

@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "RKNSJSONSerialization.h"
+#import "Support/RKNSJSONSerialization.h"
 
 @implementation RKNSJSONSerialization
 

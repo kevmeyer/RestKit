@@ -18,10 +18,10 @@
 //  limitations under the License.
 //
 
-#import "RKHTTPRequestOperation.h"
-#import "RKObjectRequestOperation.h"
-#import "RKObjectMapping.h"
-#import "RKMappingResult.h"
+#import "Network/RKHTTPRequestOperation.h"
+#import "Network/RKObjectRequestOperation.h"
+#import "ObjectMapping/RKObjectMapping.h"
+#import "ObjectMapping/RKMappingResult.h"
 
 @protocol RKManagedObjectCaching;
 

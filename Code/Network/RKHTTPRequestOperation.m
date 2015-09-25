@@ -18,11 +18,11 @@
 //  limitations under the License.
 //
 
-#import "RKHTTPRequestOperation.h"
-#import "RKLog.h"
-#import "lcl_RK.h"
-#import "RKHTTPUtilities.h"
-#import "RKMIMETypes.h"
+#import "Network/RKHTTPRequestOperation.h"
+#import "Support/RKLog.h"
+#import "Vendor/LibComponentLogging/Core/lcl_RK.h"
+#import "ObjectMapping/RKHTTPUtilities.h"
+#import "Support/RKMIMETypes.h"
 
 extern NSString * const RKErrorDomain;
 

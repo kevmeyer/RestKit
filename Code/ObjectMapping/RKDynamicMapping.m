@@ -18,9 +18,9 @@
 //  limitations under the License.
 //
 
-#import "RKDynamicMapping.h"
+#import "ObjectMapping/RKDynamicMapping.h"
 #import "RKObjectMappingMatcher.h"
-#import "RKLog.h"
+#import "Support/RKLog.h"
 
 // Set Logging Component
 #undef RKLogComponent

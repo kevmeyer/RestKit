@@ -18,8 +18,8 @@
 //  limitations under the License.
 //
 
-#import "RKObjectMapping.h"
-#import "RKAttributeMapping.h"
+#import "ObjectMapping/RKObjectMapping.h"
+#import "ObjectMapping/RKAttributeMapping.h"
 
 @class RKMappingOperation, RKDynamicMapping, RKConnectionDescription, RKMappingInfo;
 @protocol RKMappingOperationDataSource;

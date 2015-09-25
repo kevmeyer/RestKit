@@ -19,12 +19,12 @@
 //
 
 #import <objc/runtime.h>
-#import "RKObjectRequestOperation.h"
+#import "Network/RKObjectRequestOperation.h"
 #import "RKResponseMapperOperation.h"
-#import "RKResponseDescriptor.h"
-#import "RKMIMETypeSerialization.h"
-#import "RKHTTPUtilities.h"
-#import "RKLog.h"
+#import "Network/RKResponseDescriptor.h"
+#import "Support/RKMIMETypeSerialization.h"
+#import "ObjectMapping/RKHTTPUtilities.h"
+#import "Support/RKLog.h"
 #import "RKMappingErrors.h"
 #import "RKOperationStateMachine.h"
 
