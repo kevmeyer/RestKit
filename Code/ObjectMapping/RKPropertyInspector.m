@@ -19,7 +19,7 @@
 //
 
 #import <objc/runtime.h>
-#import "RKPropertyInspector.h"
+#import "ObjectMapping/RKPropertyInspector.h"
 #import "Support/RKLog.h"
 #import "RKObjectUtilities.h"
 

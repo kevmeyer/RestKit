@@ -21,7 +21,7 @@
 #import <objc/runtime.h>
 #import "CoreData/RKManagedObjectStore.h"
 #import "Support/RKLog.h"
-#import "RKPropertyInspector.h"
+#import "ObjectMapping/RKPropertyInspector.h"
 #import "CoreData/RKPropertyInspector+CoreData.h"
 #import "Support/RKPathUtilities.h"
 #import "CoreData/RKInMemoryManagedObjectCache.h"

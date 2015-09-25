@@ -27,7 +27,7 @@
 #import "ObjectMapping/RKObjectMapping.h"
 #import "RKMappingOperation.h"
 #import "RKMappingErrors.h"
-#import "RKPropertyInspector.h"
+#import "ObjectMapping/RKPropertyInspector.h"
 #import "RKValueTransformers.h"
 
 // Set Logging Component

@@ -20,7 +20,7 @@
 
 #import "CoreData/RKFetchRequestManagedObjectCache.h"
 #import "Support/RKLog.h"
-#import "RKPropertyInspector.h"
+#import "ObjectMapping/RKPropertyInspector.h"
 #import "CoreData/RKPropertyInspector+CoreData.h"
 #import "RKObjectUtilities.h"
 

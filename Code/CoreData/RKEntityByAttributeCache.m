@@ -24,7 +24,7 @@
 
 #import "RKEntityByAttributeCache.h"
 #import "Support/RKLog.h"
-#import "RKPropertyInspector.h"
+#import "ObjectMapping/RKPropertyInspector.h"
 #import "CoreData/RKPropertyInspector+CoreData.h"
 #import "CoreData/NSManagedObject+RKAdditions.h"
 #import "RKObjectUtilities.h"

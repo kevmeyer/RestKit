@@ -26,7 +26,7 @@
 #import "ObjectMapping/RKHTTPUtilities.h"
 
 #ifdef _COREDATADEFINES_H
-#if __has_include("RKCoreData.h")
+#if __has_include("CoreData/RKCoreData.h")
 #define RKCoreDataIncluded
 #import "Network/RKManagedObjectRequestOperation.h"
 #endif

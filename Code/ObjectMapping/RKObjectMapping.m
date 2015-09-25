@@ -21,7 +21,7 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import "ObjectMapping/RKObjectMapping.h"
 #import "ObjectMapping/RKRelationshipMapping.h"
-#import "RKPropertyInspector.h"
+#import "ObjectMapping/RKPropertyInspector.h"
 #import "Support/RKLog.h"
 #import "ObjectMapping/RKAttributeMapping.h"
 #import "ObjectMapping/RKRelationshipMapping.h"
